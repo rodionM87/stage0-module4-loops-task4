@@ -11,7 +11,7 @@ public class TwoRangesSum {
             System.out.println("number to skip is bigger than the last");
         } else {
             for (int iter = 1; iter <= lastInRow; iter++) {
-                if (i <= numberToSkip) {
+                if (iter <= numberToSkip) {
                     skippedSum += iter;
                     continue;
                 }
