@@ -8,7 +8,7 @@ public class TwoRangesSum {
             System.out.println("last number in row is negative");
         }
         else if (numberToSkip > lastInRow) {
-            System.out.println("number to skip is bigger than the last");
+            System.out.println("number to skip is bigger then the last");
         } else {
             for (int iter = 1; iter <= lastInRow; iter++) {
                 if (iter <= numberToSkip) {
