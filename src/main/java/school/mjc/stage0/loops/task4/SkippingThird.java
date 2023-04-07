@@ -2,7 +2,7 @@ package school.mjc.stage0.loops.task4;
 
 public class SkippingThird {
     public void printUntilButThird(int lastPrinted) {
-        privat static final char[] Null = null;
+        private static final char[] Null = null;
         if (lastPrinted <= 0) {
             System.out.print(Null);
         }
